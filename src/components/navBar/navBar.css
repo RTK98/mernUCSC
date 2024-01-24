@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter&display=swap');
+
+  
+  .navBar {
+    display: flex;
+    justify-content: space-between; /* Add this to create space between logo and shopName */
+    align-items: center; /* Center items vertically */
+    background-color: #000000; /* Add your desired background color */
+  }
+  
+  .logo {
+    width: 100px;
+    height: inherit;
+  }
+  
+  .shopName {
+    margin-left: -700px;
+    color: #FFFFFF;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px; /* Adjust font size as needed */
+    height: inherit; /* Inherit the height from the logo */
+  }
+  
+  .navBarUl {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navBarUl li {
+    display: inline-block;
+  }
+  
+  .navBarUl li a {
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 6px 6px;
+    cursor: pointer;
+    color: #c88705;
+    font-family: Arial;
+    font-size: 17px;
+    transition: color 0.3s;
+  }
+  
+  .navBarUl li a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 17px;
+  }
