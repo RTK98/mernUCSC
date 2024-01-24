@@ -1,6 +1,6 @@
 import React from "react";
 import banner from "../../assets/img/banner.jpg";
-
+//lINE ADDED BY STEFAN
 const data = [
   {
     name: `Hair Cutting`,
